@@ -1,0 +1,20 @@
+{
+    "name": "obj ext",
+    "description": "my ext",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "icons":  {
+        "16": "./16x16.png"
+    },
+    "background": {
+        "scripts": ["./background.js"]
+    },
+    "options_page": "./options.html",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [ 
+        "tabs", 
+        "https://www.google.com/*"
+    ]
+}
